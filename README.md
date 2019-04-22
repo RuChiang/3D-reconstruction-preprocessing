@@ -46,7 +46,7 @@ For running the train and test code, move to the mesh
 
 >cd ~/mesh_reconstruction <br/>
 python mesh_reconstruction/train.py -eid singleclass_{class ID} -cls {class ID} -ls 0.001 -li 1000 -ni {number of iterations} <br/>
-python mesh_reconstruction/test.py -eid singleclass_{class ID}
+python mesh_reconstruction/test.py -eid singleclass_{class ID} -cls {class ID}
 
 ## Special Thanks
 
